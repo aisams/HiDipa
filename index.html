@@ -1,187 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark" />
-    <title>Synthetic Identity</title>
+    <title>Dipa's Museum</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <meta
-      name="description"
-      content="AI时代，每个人都是IP：用合成资产与自动化流程，让创作更可扩展、分发更高效、价值更可落地。"
-    />
-    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main">跳到主要内容</a>
-
-    <header class="site-header" role="banner">
-      <div class="container header-inner">
-        <div class="brand" aria-label="品牌">
-          <span class="brand-mark" aria-hidden="true"></span>
-          <span class="brand-name">SYNTHETIC IDENTITY</span>
-        </div>
-
-        <nav class="nav" aria-label="主导航">
-          <a class="nav-link" href="#ecosystem">Ecosystem</a>
-          <a class="nav-link" href="#protocol">Protocol</a>
-          <a class="nav-link" href="#ecosystem">Network</a>
-          <a class="nav-link is-active" href="#vision" aria-current="page">Vision</a>
-        </nav>
-
-        <div class="header-actions" aria-label="操作">
-          <a class="btn btn-ghost" href="./notify-settings.html">通知配置</a>
-          <a class="btn btn-primary btn-init" href="#cta">Initialize IP</a>
-        </div>
-      </div>
-    </header>
-
-    <main id="main" class="page" role="main">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-bg" aria-hidden="true"></div>
-        <div class="container hero-inner">
-          <div class="hero-copy">
-            <h1 id="hero-title" class="hero-title">
-              AI时代，每个人都是<span class="accent"> IP</span>
-            </h1>
-            <p class="hero-subtitle">
-              AI时代下的“合成资产”让你的创作更可扩展、分发更高效、价值更可落地。用系统化流程重构个人影响力。
-            </p>
-
-            <div class="hero-cta">
-              <a class="btn btn-primary btn-lg btn-hero" href="#cta">立即开启您的IP之旅</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="vision" class="section philosophy" aria-label="核心理念">
-        <div class="container">
-          <div class="philo-wrap">
-            <div class="philo-pill label-caps">CORE PHILOSOPHY</div>
-            <h2 class="philo-quote">
-              “AI 并非要取代人类，而是要将每个人的影响力『民主化』。在算法的加持下，个体的创造力将被无限放大。”
-            </h2>
-            <div class="protocol-sep" role="presentation">
-              <span class="protocol-line" aria-hidden="true"></span>
-              <div class="protocol-label label-caps">SYNTHETIC IDENTITY PROTOCOL</div>
-              <span class="protocol-line" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="ecosystem" class="section features" aria-label="能力与服务">
-        <div class="container">
-          <div class="cards" role="list" aria-label="三张能力卡片">
-            <article class="card ip-card" role="listitem">
-              <div class="ip-card-top">
-                <div class="ip-card-icon" aria-hidden="true">✦</div>
-                <h3 class="ip-card-title">智能创作</h3>
-              </div>
-              <p class="ip-card-desc">把你的想法结构化为可调用的创作单元，把输出沉淀为可复用的合成资产。</p>
-              <div class="ip-card-tech label-caps">GENERATIVE ASSETS</div>
-            </article>
-
-            <article class="card ip-card" role="listitem">
-              <div class="ip-card-top">
-                <div class="ip-card-icon" aria-hidden="true">⌁</div>
-                <h3 class="ip-card-title">全域分发</h3>
-              </div>
-              <p class="ip-card-desc">在不同平台间保持一致叙事与质量标准，让你的合成内容以更高效率流动。</p>
-              <div class="ip-card-tech label-caps">NETWORK PROPAGATION</div>
-            </article>
-
-            <article class="card ip-card" role="listitem">
-              <div class="ip-card-top">
-                <div class="ip-card-icon" aria-hidden="true">⟡</div>
-                <h3 class="ip-card-title">价值变现</h3>
-              </div>
-              <p class="ip-card-desc">让产出沉淀为长期可追踪的资产，通过链路与接口推动价值实现。</p>
-              <div class="ip-card-tech label-caps">MONETARY INTERFACE</div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="protocol" class="section section-alt process" aria-labelledby="process-title">
-        <div class="container">
-          <div class="section-head">
-            <h2 id="process-title" class="section-title">启动流程</h2>
-            <p class="section-desc">
-              以“模块化团队 + 合成资产库 + 自动化执行”为主线，形成稳定可迭代的闭环。
-            </p>
-          </div>
-
-          <div class="steps" role="list" aria-label="流程步骤">
-            <article class="step" role="listitem">
-              <div class="step-no step-no-outline">01</div>
-              <h3 class="step-title">定义数字基因</h3>
-              <p class="step-desc">明确领域、受众与创作边界，把目标映射成可执行的数字基因。</p>
-            </article>
-
-            <article class="step" role="listitem">
-              <div class="step-no step-no-outline">02</div>
-              <h3 class="step-title">构建合成资产</h3>
-              <p class="step-desc">沉淀内容结构与知识库，形成稳定的资产供给系统。</p>
-            </article>
-
-            <article class="step" role="listitem">
-              <div class="step-no step-no-active">03</div>
-              <h3 class="step-title">开启自动化运作</h3>
-              <p class="step-desc">基于流程与规则持续生成、分发并追踪效果，让价值不断累积。</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="cta" class="cta" aria-labelledby="cta-title">
-        <div class="container cta-inner">
-          <div class="cta-panel">
-            <div class="cta-tech" aria-hidden="true"></div>
-            <div class="cta-copy">
-              <div class="label-caps">SYNTHETIC IDENTITY</div>
-              <h2 id="cta-title" class="cta-title">即刻重构您的数字未来</h2>
-            <p class="cta-desc">
-              把创作升级为长期可复利的 IP 资产系统。在 AI 加持下，让你的影响力可持续增长。
-            </p>
-
-              <div class="cta-actions">
-                <a class="btn btn-primary btn-lg" href="#main">加入AI IP时代</a>
-                <a class="btn btn-ghost btn-lg" href="#main">查看成功案例</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer" role="contentinfo">
-      <div class="container footer-inner">
-        <div class="footer-left">
-          <div class="footer-logo" aria-label="SYNTHETIC IDENTITY">
-            <span class="footer-logo-line">SYNTHETIC</span>
-            <span class="footer-logo-line">IDENTITY</span>
-          </div>
-        </div>
-
-        <nav class="footer-nav" aria-label="页脚链接">
-          <a href="#main">Privacy Protocol</a>
-          <a href="#main">Terms of Service</a>
-          <a href="#main">API Docs</a>
-          <a href="#main">Nodes</a>
-        </nav>
-
-        <div class="footer-right">
-          © 2024 NEURAL INTERFACE CORP. ALL RIGHTS RESERVED.
-        </div>
-      </div>
-    </footer>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
-

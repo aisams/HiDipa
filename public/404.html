@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <script>
+    // GitHub Pages SPA redirect: store the full path, then redirect to root
+    var path = location.pathname + location.search + location.hash
+    path = path.replace(/\/$/, '')
+    location.replace(location.origin + '/HiDipa/?p=' + encodeURIComponent(path))
+  </script>
+</head>
+<body>Redirecting...</body>
+</html>
