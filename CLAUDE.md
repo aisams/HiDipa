@@ -7,7 +7,7 @@ This file provides guidance to Claude Code when working with code in this reposi
 Dipa's personal museum — a Vue 3 SPA that showcases projects, blog posts, and personal info. Hosted on GitHub Pages.
 
 - **Live URL**: `https://aisams.github.io/HiDipa`
-- **Remote**: `https://github.com/aisams/hello.git` (branch: `master`)
+- **Remote**: `https://github.com/aisams/HiDipa.git` (branch: `master`)
 
 ## Tech Stack
 
@@ -57,4 +57,10 @@ GitHub Pages with HTML5 history mode via `404.html` redirect trick:
 1. `404.html` stores the requested path and redirects to `/?p=/path`
 2. `main.js` reads the `p` param and calls `router.replace(path)`
 
-Build output goes to `dist/`. To deploy, push `dist/` to the `gh-pages` branch or configure GitHub Pages to serve from `master` branch `/docs` folder.
+**Deploy flow**:
+
+```bash
+npm run deploy    # build + push dist/ to gh-pages branch
+```
+
+This runs `deploy.sh` which builds, copies `dist/` into a gh-pages worktree, commits, and pushes. Site is served from `gh-pages` branch, root directory.
