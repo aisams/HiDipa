@@ -50,7 +50,7 @@ const year = new Date().getFullYear()
 }
 
 .footer-links a:hover {
-  color: var(--gold);
+  color: var(--color-accent);
 }
 
 .footer-copy {

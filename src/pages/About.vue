@@ -65,7 +65,7 @@
 }
 
 .contact-list a:hover {
-  color: var(--gold);
+  color: var(--color-accent);
 }
 
 @media (max-width: 768px) {

@@ -46,11 +46,11 @@
 }
 
 .brand:hover {
-  color: var(--gold);
+  color: var(--color-accent);
 }
 
 .brand-mark {
-  color: var(--gold);
+  color: var(--color-accent);
   font-size: 0.7rem;
 }
 
@@ -68,7 +68,7 @@
 
 .nav-link:hover,
 .nav-link.router-link-active {
-  color: var(--gold);
+  color: var(--color-accent);
 }
 
 .nav-link.router-link-active::after {
@@ -80,7 +80,7 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: var(--gold);
+  background: var(--color-accent);
 }
 
 @media (max-width: 768px) {

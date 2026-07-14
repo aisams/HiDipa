@@ -62,7 +62,7 @@ defineProps({
 }
 
 .project-card:hover .project-title {
-  color: var(--gold);
+  color: var(--color-accent);
 }
 
 .project-desc {
